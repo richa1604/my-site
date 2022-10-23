@@ -1,0 +1,115 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center; /*center the image aand text*/
+  font-family:"Yeseva One",sans-serif;
+}
+.top{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px; /*its to mark as relative pos other img will be set relative to this*/
+}
+.middle-container{
+margin-top: 10px;
+
+}
+.bottom-container{
+  background-color:#66BFBF;
+  padding-bottom:50px 20px;
+}
+a{
+  color: #1199E;
+  font-family:"Yeseva One",sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family:"Montserrat",sans-serif;
+  font-family:"Yeseva One",sans-serif;
+  /*margin:0 auto 0 auto;  another way of centering the image or text*/
+  color: #66BFBF;
+  line-height: 2;
+}
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color:#11999E;
+}
+div{
+  background-color:white;
+}
+.cloud1{
+  position: absolute;
+  right: 200px;
+  top:50px;
+}
+.cloud2{
+  position:absolute;
+  margin: 60px;
+  left: 150px;
+  bottom:50px;
+  top: 190px;
+}
+.skill-row{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  background-color: white;
+}
+.btn{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:"Yeseva One",sans-serif;
+  color: #031c1f;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top,#30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb,#2bc4ad);
+  background-image: linear-gradient(to bottom,#30e3cb, #2bc4ad);
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.code-img{
+ width: 10%;
+ float: left;
+ width: 20%;
+ bottom: 300px;
+}
+.bskt{
+  margin: 10px;
+  width: 20%;
+  float: left;
+  bottom: 300px;
+}
+.btns{
+  margin: 20px;
+}
